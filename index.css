@@ -1,0 +1,55 @@
+section.login{
+    background-image:url(gym.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+form{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    
+
+}
+input{
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid#333;
+    padding: 10px;
+}
+input:focus{
+    border-bottom: 2px solid #e0c445;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    border: none;
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px;
+}
+button:hover{
+    background: #e0c445;
+    color: #333;
+}
+
+label{
+    color: rgb(100,100,100);
+}
